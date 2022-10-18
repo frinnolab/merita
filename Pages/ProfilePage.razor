@@ -48,7 +48,7 @@
         </div>
         <div class="form-grp">
             <div class="actions">
-                <button>Back</button>
+                <button @onclick="Navigate">Back</button>
                 <button type="reset">Clear</button>
                 <button type="submit">Save</button>
             </div>
@@ -81,12 +81,16 @@
         }else{
             _service.Add(Profile_);
         }
-        navigate.NavigateTo("profiles");
+        Navigate();
     }
 
     private string FetchAvatar(){
         var url = "avatar url";
 
         return url;
+    }
+
+    private void Navigate(){
+        navigate.NavigateTo("profiles");
     }
 }

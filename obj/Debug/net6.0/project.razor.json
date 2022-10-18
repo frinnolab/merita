@@ -164,39 +164,6 @@
         }
       },
       {
-        "HashCode": 318185364,
-        "Kind": "Components.Component",
-        "Name": "merita_soln.Pages.ProfilesList",
-        "AssemblyName": "merita soln",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ProfilesList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "merita_soln.Pages.ProfilesList"
-        }
-      },
-      {
-        "HashCode": -489438599,
-        "Kind": "Components.Component",
-        "Name": "merita_soln.Pages.ProfilesList",
-        "AssemblyName": "merita soln",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "merita_soln.Pages.ProfilesList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "merita_soln.Pages.ProfilesList",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1656156148,
         "Kind": "Components.Component",
         "Name": "merita_soln.Pages.ProfilePage",
@@ -246,6 +213,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "merita_soln.Pages.ProfilePage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 318185364,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Pages.ProfilesList",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProfilesList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Pages.ProfilesList"
+        }
+      },
+      {
+        "HashCode": -489438599,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Pages.ProfilesList",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "merita_soln.Pages.ProfilesList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Pages.ProfilesList",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
