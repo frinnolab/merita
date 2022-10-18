@@ -29,15 +29,23 @@
             <td>@profile.FirstName</td>
             <td>@profile.LastName</td>
             <td>@profile.Mobile</td>
-            <td><a href="profile/@profile.Id">EDIT</a></td>
-            <td><a href="profile/@profile.Id/delete">DELETE</a></td>
+            <td> 
+                 <a href="profile/@profile.Id">
+                    <span class="oi oi-pencil me-2" aria-hidden="true"></span>
+                 </a>
+            </td>
+            <td>
+                <a href="profile/@profile.Id/delete">
+                    <span class="oi oi-trash me-2" aria-hidden="true"></span>
+                </a>
+            </td>
         </tr>   
             }
             
         }else
         {
         <tr class="tr-content">
-            <td><p>No Content yet...!</p></td>
+            <td style="text-align: center;"><p>No Profiles yet...!</p></td>
         </tr>
             
         }
@@ -53,7 +61,7 @@
         profiles = _service.FindAll();
     }
     
-    public string[] tableHeaders = new string [] {"Firstname", "Lastname", "Phone number", "", ""};
+    public string[] tableHeaders = new string [] {"Firstname", "Lastname", "Phone number", "Edit", "Delete"};
 
     protected void AddProfile(){
         navigate.NavigateTo("profile/0");   

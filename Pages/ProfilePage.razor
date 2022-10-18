@@ -75,8 +75,8 @@
     }
 
     protected void OnCreate(){
-        var id = Int16.Parse(Id);
-        if(id > 0){
+
+        if(Profile_.Id > 0){
             _service.Update(Profile_);
         }else{
             _service.Add(Profile_);
