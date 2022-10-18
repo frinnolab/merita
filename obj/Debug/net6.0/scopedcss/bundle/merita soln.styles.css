@@ -1,3 +1,42 @@
+/* _content/merita soln/Pages/ProfilePage.razor.rz.scp.css */
+.contaner[b-pojeddxamh], .profile-form[b-pojeddxamh]{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.profile-form[b-pojeddxamh]{
+    margin: 0 16px;
+}
+.form-grp[b-pojeddxamh]{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    gap: 8px;
+}
+
+.lb-txt[b-pojeddxamh]{
+    align-items: flex-start;
+}
+
+/* _content/merita soln/Pages/ProfilesList.razor.rz.scp.css */
+.container[b-h5yty8ygmh]{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+table[b-h5yty8ygmh]{
+    width: 100%;
+}
+
+.tr-content[b-h5yty8ygmh]{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* _content/merita soln/Shared/MainLayout.razor.rz.scp.css */
 .page[b-ov3lkh7o4w] {
     position: relative;

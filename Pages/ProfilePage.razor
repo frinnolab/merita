@@ -1,0 +1,66 @@
+@page "/profile/{Id}"
+@inject IProfileService _service;
+@inject NavigationManager navigate;
+
+<div class="container">
+    @if(Profile_ != null & Profile_.Id > 0){
+        <h1>@Profile_.FirstName's Profile</h1>
+    }else{
+        <h1>Add New Profile</h1>
+    }
+
+    <EditForm class="profile-form" Model="@Profile_" OnSubmit="@OnCreate">
+        @* Form Group *@
+
+        <input hidden name="id" @bind-value="Profile_.Id"/>
+        <div class="form-grp" hidden>
+            <p>Add Image</p>
+            <input name="fimg" @bind-value="Profile_.Image_Url"/>
+        </div>
+        <div class="form-grp">
+            <label class="lb-txt" for="@Profile_.FirstName">Firstname</label>
+            <input name="fname" @bind-value="Profile_.FirstName"/>
+        </div>
+        <div class="form-grp">
+            <label class="lb-txt" for="@Profile_.LastName">Lastname</label>
+            <input name="flname" @bind-value="Profile_.LastName"/>
+        </div>
+        <div class="form-grp">
+            <label class="lb-txt" for="@Profile_.Mobile">Mobile</label>
+            <input name="fmobile" @bind-value="Profile_.Mobile"/>
+        </div>
+        <div class="form-grp">
+            <button type="submit">Save</button>
+        </div>
+
+    </EditForm>
+</div>
+
+
+@code{
+    [Parameter]
+    public string Id { get; set; }
+    public Profile Profile_ { get; set; }
+    protected override void OnInitialized()
+    {
+        var id = Int16.Parse(Id);
+
+        if(id > 0){
+            Profile_ =  _service.Find(id);
+        }else{
+            Profile_ = new Profile();
+        }
+
+    }
+
+    protected void OnCreate(){
+        _service.Add(Profile_);
+        navigate.NavigateTo("profiles");
+    }
+
+    private string FetchAvatar(){
+        var url = "avatar url";
+
+        return url;
+    }
+}
