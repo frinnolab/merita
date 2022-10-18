@@ -1,10 +1,13 @@
 @page "/profile/{Id}"
 @inject IProfileService _service;
 @inject NavigationManager navigate;
+@inject IWebHostEnvironment webEnv;
+<PageTitle>Manage profile</PageTitle>
 
 <div class="container">
     @if(Profile_ != null & Profile_.Id > 0){
         <h1>@Profile_.FirstName's Profile</h1>
+        <h1>@Profile_.Image_Url</h1>
     }else{
         <h1>Add New Profile</h1>
     }
@@ -42,7 +45,7 @@
                             <p style="font-size: 10px;">No Image..</p>
                         }
                     </div>
-                    <input type="file" name="imgfile">
+                    <InputFile multiple OnChange="@FetchProfile" name="imgfile"/>
 
                 </div>
         </div>
@@ -50,7 +53,13 @@
             <div class="actions">
                 <button @onclick="Navigate">Back</button>
                 <button type="reset">Clear</button>
-                <button type="submit">Save</button>
+                <button type="submit">
+                    @if(Profile_.Id>0){
+                        <span>Update</span>
+                    }else{
+                        <span>Save</span>
+                    }
+                </button>
             </div>
         </div>
 
@@ -62,6 +71,13 @@
     [Parameter]
     public string Id { get; set; }
     public Profile Profile_ { get; set; }
+
+    //Manage Files
+
+    private List<IBrowserFile> files = new ();
+    private long maxSize = 1024 * 15;
+    private int maxFileSize = 1;
+
     protected override void OnInitialized()
     {
         var id = Int16.Parse(Id);
@@ -84,10 +100,7 @@
         Navigate();
     }
 
-    private string FetchAvatar(){
-        var url = "avatar url";
-
-        return url;
+    private async Task FetchProfile(InputFileChangeEventArgs e){
     }
 
     private void Navigate(){
