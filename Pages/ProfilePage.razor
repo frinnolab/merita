@@ -12,21 +12,21 @@
     <EditForm class="profile-form" Model="@Profile_" OnSubmit="@OnCreate">
         @* Form Group *@
 
-        <input type="hidden" name="id" @bind-value="Profile_.Id"/>
-        <div class="form-grp">
+        <input hidden name="id" @bind-value="Profile_.Id"/>
+        <div class="form-grp" hidden>
             <p>Add Image</p>
             <input name="fimg" @bind-value="Profile_.Image_Url"/>
         </div>
         <div class="form-grp">
-            <label for="@Profile_.FirstName"></label>
+            <label class="lb-txt" for="@Profile_.FirstName">Firstname</label>
             <input name="fname" @bind-value="Profile_.FirstName"/>
         </div>
         <div class="form-grp">
-            <label for="@Profile_.LastName"></label>
+            <label class="lb-txt" for="@Profile_.LastName">Lastname</label>
             <input name="flname" @bind-value="Profile_.LastName"/>
         </div>
         <div class="form-grp">
-            <label for="@Profile_.Mobile"></label>
+            <label class="lb-txt" for="@Profile_.Mobile">Mobile</label>
             <input name="fmobile" @bind-value="Profile_.Mobile"/>
         </div>
         <div class="form-grp">
@@ -54,7 +54,13 @@
     }
 
     protected void OnCreate(){
+        _service.Add(Profile_);
+        navigate.NavigateTo("profiles");
+    }
 
-        int a = 0;
+    private string FetchAvatar(){
+        var url = "avatar url";
+
+        return url;
     }
 }

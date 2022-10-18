@@ -1,13 +1,14 @@
 @page "/profiles"
 
 @inject IProfileService _service;
+@inject NavigationManager navigate;
 <div class="container">
 <h1>Profiles List</h1>
 
 <div class="top-actions">
     <div></div>
     <div>
-        <a type="button" href="profile/0">Add Profile</a>
+        <button type="button" @onclick="AddProfile">Add Profile</button>
     </div>
 </div>
 
@@ -52,6 +53,10 @@
     }
     
     public string[] tableHeaders = new string [] {"Firstname", "Lastname", "Phone number", "", ""};
+
+    protected void AddProfile(){
+        navigate.NavigateTo("profile/0");   
+    }
 
 
 

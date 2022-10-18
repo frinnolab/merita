@@ -35,3 +35,4 @@ C:\Users\Frinno-LAB\Desktop\GA James\merita soln\bin\Debug\net6.0\Microsoft.Exte
 C:\Users\Frinno-LAB\Desktop\GA James\merita soln\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.csproj.CopyComplete
 C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\scopedcss\Pages\ProfilesList.razor.rz.scp.css
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\scopedcss\Pages\ProfilePage.razor.rz.scp.css
