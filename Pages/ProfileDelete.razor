@@ -1,0 +1,43 @@
+@page "/profile/{Id}/delete";
+@inject IProfileService _service;
+@inject NavigationManager navigation;
+
+<div class="container">
+    <p>Are you sure you want to delete @Profile_.FirstName's profile ?</p>
+    <div class="actions">
+        <button class="act-btn" @onclick="Navigate">Cancel</button>
+        <button class="act-btn" @onclick="RemoveProfile">Yes</button>
+    </div>
+</div>
+
+@code 
+{
+    [Parameter]
+    public string Id { get; set; }
+    public Profile Profile_ { get; set; }
+
+        protected override void OnInitialized()
+        {
+            var id = int.Parse(Id);
+            Profile_ = GetProfile(id);
+        }
+
+    
+
+    protected Profile GetProfile(int id)
+    {
+        return Profile_ = _service.Find(id);       
+    }
+
+    protected void RemoveProfile()
+    {
+        _service.Remove(Profile_.Id);
+        Navigate();
+    }
+
+    private void Navigate(){
+        navigation.NavigateTo("/");
+    }
+
+}
+

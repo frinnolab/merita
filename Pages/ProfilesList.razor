@@ -29,8 +29,8 @@
             <td>@profile.FirstName</td>
             <td>@profile.LastName</td>
             <td>@profile.Mobile</td>
-            <td><a href="#">EDIT</a></td>
-            <td><a href="#">DELETE</a></td>
+            <td><a href="profile/@profile.Id">EDIT</a></td>
+            <td><a href="profile/@profile.Id/delete">DELETE</a></td>
         </tr>   
             }
             
@@ -46,9 +46,10 @@
 </div>
 
 @code{
-    protected IList<Profile> profiles;
+    public IList<Profile> profiles { get; set; }
 
     protected override void OnInitialized(){
+
         profiles = _service.FindAll();
     }
     

@@ -27,15 +27,17 @@
     display: flex;
     flex-direction: column;
 }
-
-table[b-h5yty8ygmh]{
+table[b-h5yty8ygmh], .tdata[b-h5yty8ygmh]{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.tr-content[b-h5yty8ygmh]{
+.thead[b-h5yty8ygmh], .tr-content[b-h5yty8ygmh]{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;                    
 }
 /* _content/merita soln/Shared/MainLayout.razor.rz.scp.css */
 .page[b-ov3lkh7o4w] {

@@ -54,7 +54,12 @@
     }
 
     protected void OnCreate(){
-        _service.Add(Profile_);
+        var id = Int16.Parse(Id);
+        if(id > 0){
+            _service.Update(Profile_);
+        }else{
+            _service.Add(Profile_);
+        }
         navigate.NavigateTo("profiles");
     }
 

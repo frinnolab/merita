@@ -4,13 +4,15 @@
     display: flex;
     flex-direction: column;
 }
-
-table{
+table, .tdata{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.tr-content{
+.thead, .tr-content{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;                    
 }
