@@ -1,0 +1,27 @@
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\bin\Debug\net6.0\appsettings.json
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\bin\Debug\net6.0\merita soln.staticwebassets.runtime.json
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\bin\Debug\net6.0\merita soln.exe
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\bin\Debug\net6.0\merita soln.deps.json
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\bin\Debug\net6.0\merita soln.runtimeconfig.json
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\bin\Debug\net6.0\merita soln.dll
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\bin\Debug\net6.0\merita soln.pdb
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.csproj.AssemblyReference.cache
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.AssemblyInfoInputs.cache
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.AssemblyInfo.cs
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.csproj.CoreCompileInputs.cache
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.RazorAssemblyInfo.cache
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.RazorAssemblyInfo.cs
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\scopedcss\bundle\merita soln.styles.css
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\scopedcss\projectbundle\merita soln.bundle.scp.css
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.dll
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\refint\merita soln.dll
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.pdb
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\merita soln.genruntimeconfig.cache
+C:\Users\Frinno-LAB\Desktop\GA James\merita soln\obj\Debug\net6.0\ref\merita soln.dll
