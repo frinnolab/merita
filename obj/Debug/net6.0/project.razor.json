@@ -197,6 +197,39 @@
         }
       },
       {
+        "HashCode": 735860852,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Shared.NavMenu",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 605082245,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Shared.NavMenu",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "merita_soln.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1419532874,
         "Kind": "Components.Component",
         "Name": "merita_soln.Shared.MainLayout",
@@ -289,39 +322,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "merita_soln.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 735860852,
-        "Kind": "Components.Component",
-        "Name": "merita_soln.Shared.NavMenu",
-        "AssemblyName": "merita soln",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "merita_soln.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 605082245,
-        "Kind": "Components.Component",
-        "Name": "merita_soln.Shared.NavMenu",
-        "AssemblyName": "merita soln",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "merita_soln.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "merita_soln.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
