@@ -12,25 +12,46 @@
     <EditForm class="profile-form" Model="@Profile_" OnSubmit="@OnCreate">
         @* Form Group *@
 
-        <input hidden name="id" @bind-value="Profile_.Id"/>
-        <div class="form-grp" hidden>
-            <p>Add Image</p>
-            <input name="fimg" @bind-value="Profile_.Image_Url"/>
+        <div class="form-container">
+                <div class="forms-input">
+                    <input hidden name="id" @bind-value="Profile_.Id"/>
+                    <div class="form-grp" hidden>
+                        <p>Add Image</p>
+                        <input name="fimg" @bind-value="Profile_.Image_Url"/>
+                    </div>
+                    <div class="form-grp">
+                        <label class="lb-txt" for="@Profile_.FirstName">Firstname</label>
+                        <input name="fname" @bind-value="Profile_.FirstName"/>
+                    </div>
+                    <div class="form-grp">
+                        <label class="lb-txt" for="@Profile_.LastName">Lastname</label>
+                        <input name="flname" @bind-value="Profile_.LastName"/>
+                    </div>
+                    <div class="form-grp">
+                        <label class="lb-txt" for="@Profile_.Mobile">Mobile</label>
+                        <input name="fmobile" @bind-value="Profile_.Mobile"/>
+                    </div>
+                </div>
+                <div class="form-img">
+                    <div class="img-square">
+                        @if (!String.IsNullOrEmpty(Profile_.Image_Url))
+                        {
+                            <img class="prof-img" src="@Profile_.Image_Url" alt="">
+                        }
+                        else{
+                            <p style="font-size: 10px;">No Image..</p>
+                        }
+                    </div>
+                    <input type="file" name="imgfile">
+
+                </div>
         </div>
         <div class="form-grp">
-            <label class="lb-txt" for="@Profile_.FirstName">Firstname</label>
-            <input name="fname" @bind-value="Profile_.FirstName"/>
-        </div>
-        <div class="form-grp">
-            <label class="lb-txt" for="@Profile_.LastName">Lastname</label>
-            <input name="flname" @bind-value="Profile_.LastName"/>
-        </div>
-        <div class="form-grp">
-            <label class="lb-txt" for="@Profile_.Mobile">Mobile</label>
-            <input name="fmobile" @bind-value="Profile_.Mobile"/>
-        </div>
-        <div class="form-grp">
-            <button type="submit">Save</button>
+            <div class="actions">
+                <button>Back</button>
+                <button type="reset">Clear</button>
+                <button type="submit">Save</button>
+            </div>
         </div>
 
     </EditForm>

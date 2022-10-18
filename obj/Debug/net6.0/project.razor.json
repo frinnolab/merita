@@ -111,59 +111,6 @@
         }
       },
       {
-        "HashCode": 1656156148,
-        "Kind": "Components.Component",
-        "Name": "merita_soln.Pages.ProfilePage",
-        "AssemblyName": "merita soln",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ProfilePage"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "merita_soln.Pages.ProfilePage"
-        }
-      },
-      {
-        "HashCode": -1662005790,
-        "Kind": "Components.Component",
-        "Name": "merita_soln.Pages.ProfilePage",
-        "AssemblyName": "merita soln",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "merita_soln.Pages.ProfilePage"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "merita_soln.Pages.ProfilePage",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 318185364,
         "Kind": "Components.Component",
         "Name": "merita_soln.Pages.ProfilesList",
@@ -246,6 +193,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "merita_soln.Pages.ProfileDelete",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1656156148,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Pages.ProfilePage",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProfilePage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Pages.ProfilePage"
+        }
+      },
+      {
+        "HashCode": -1662005790,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Pages.ProfilePage",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "merita_soln.Pages.ProfilePage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Pages.ProfilePage",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

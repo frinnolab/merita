@@ -6,16 +6,57 @@
 }
 .profile-form[b-pojeddxamh]{
     margin: 0 16px;
-}
-.form-grp[b-pojeddxamh]{
-    width: 60%;
     display: flex;
     flex-direction: column;
+    margin: 8px;
+    gap: 8px;
+}
+.form-container[b-pojeddxamh]{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.form-grp[b-pojeddxamh]{
+    text-align: start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin: 8px;
     gap: 8px;
 }
 
 .lb-txt[b-pojeddxamh]{
     align-items: flex-start;
+}
+
+.form-img[b-pojeddxamh]{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.img-square[b-pojeddxamh]{
+    height: 50px;
+    width: 50px;
+    border: 1.5px solid grey;
+    border-radius: 50%;
+    object-fit: contain;
+    opacity: .5;
+    text-align: center;
+}
+
+.prof-img[b-pojeddxamh]{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.actions[b-pojeddxamh]{
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
 }
 
