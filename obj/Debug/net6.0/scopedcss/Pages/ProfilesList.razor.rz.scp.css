@@ -1,0 +1,16 @@
+.container[b-h5yty8ygmh]{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+table[b-h5yty8ygmh]{
+    width: 100%;
+}
+
+.tr-content[b-h5yty8ygmh]{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 922351059,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Pages.Counter",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 2034071743,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Pages.Counter",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "merita_soln.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1567904588,
         "Kind": "Components.Component",
         "Name": "merita_soln.Pages.FetchData",
@@ -78,35 +111,88 @@
         }
       },
       {
-        "HashCode": 922351059,
+        "HashCode": 318185364,
         "Kind": "Components.Component",
-        "Name": "merita_soln.Pages.Counter",
+        "Name": "merita_soln.Pages.ProfilesList",
         "AssemblyName": "merita soln",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "ProfilesList"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "merita_soln.Pages.Counter"
+          "Common.TypeName": "merita_soln.Pages.ProfilesList"
         }
       },
       {
-        "HashCode": 2034071743,
+        "HashCode": -489438599,
         "Kind": "Components.Component",
-        "Name": "merita_soln.Pages.Counter",
+        "Name": "merita_soln.Pages.ProfilesList",
         "AssemblyName": "merita soln",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "merita_soln.Pages.Counter"
+            "TagName": "merita_soln.Pages.ProfilesList"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "merita_soln.Pages.Counter",
+          "Common.TypeName": "merita_soln.Pages.ProfilesList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1656156148,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Pages.ProfilePage",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProfilePage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Pages.ProfilePage"
+        }
+      },
+      {
+        "HashCode": -1662005790,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Pages.ProfilePage",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "merita_soln.Pages.ProfilePage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Pages.ProfilePage",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -140,59 +226,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "merita_soln.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1887321304,
-        "Kind": "Components.Component",
-        "Name": "merita_soln.Shared.SurveyPrompt",
-        "AssemblyName": "merita soln",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "merita_soln.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 877647093,
-        "Kind": "Components.Component",
-        "Name": "merita_soln.Shared.SurveyPrompt",
-        "AssemblyName": "merita soln",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "merita_soln.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "merita_soln.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -289,6 +322,59 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "merita_soln.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1887321304,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Shared.SurveyPrompt",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 877647093,
+        "Kind": "Components.Component",
+        "Name": "merita_soln.Shared.SurveyPrompt",
+        "AssemblyName": "merita soln",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "merita_soln.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "merita_soln.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16622,6 +16708,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Frinno-LAB\\Desktop\\GA James\\merita soln\\Pages\\ProfilePage.razor",
+      "TargetPath": "Pages\\ProfilePage.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\Frinno-LAB\\Desktop\\GA James\\merita soln\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
@@ -16629,6 +16720,11 @@
     {
       "FilePath": "c:\\Users\\Frinno-LAB\\Desktop\\GA James\\merita soln\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Frinno-LAB\\Desktop\\GA James\\merita soln\\Pages\\ProfilesList.razor",
+      "TargetPath": "Pages\\ProfilesList.razor",
       "FileKind": "component"
     },
     {

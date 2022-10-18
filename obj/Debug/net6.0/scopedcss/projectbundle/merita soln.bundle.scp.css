@@ -1,3 +1,20 @@
+/* _content/merita soln/Pages/ProfilesList.razor.rz.scp.css */
+.container[b-h5yty8ygmh]{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+table[b-h5yty8ygmh]{
+    width: 100%;
+}
+
+.tr-content[b-h5yty8ygmh]{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* _content/merita soln/Shared/MainLayout.razor.rz.scp.css */
 .page[b-ov3lkh7o4w] {
     position: relative;

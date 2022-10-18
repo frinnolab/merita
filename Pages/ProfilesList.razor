@@ -1,0 +1,58 @@
+@page "/profiles"
+
+@inject IProfileService _service;
+<div class="container">
+<h1>Profiles List</h1>
+
+<div class="top-actions">
+    <div></div>
+    <div>
+        <a type="button" href="profile/0">Add Profile</a>
+    </div>
+</div>
+
+<table>
+    <thead class="thead">
+        @foreach (var header in tableHeaders)
+        {
+            <th>@header</th>
+        }
+    </thead>
+    @* Body *@
+    <tbody class="tdata">
+        @if (profiles.Count>0)
+        {
+            @foreach (var profile in profiles)
+            {
+        <tr class="tr-content">
+            <td>@profile.FirstName</td>
+            <td>@profile.LastName</td>
+            <td>@profile.Mobile</td>
+            <td><a href="#">EDIT</a></td>
+            <td><a href="#">DELETE</a></td>
+        </tr>   
+            }
+            
+        }else
+        {
+        <tr class="tr-content">
+            <td><p>No Content yet...!</p></td>
+        </tr>
+            
+        }
+    </tbody>
+</table>
+</div>
+
+@code{
+    protected IList<Profile> profiles;
+
+    protected override void OnInitialized(){
+        profiles = _service.FindAll();
+    }
+    
+    public string[] tableHeaders = new string [] {"Firstname", "Lastname", "Phone number", "", ""};
+
+
+
+}

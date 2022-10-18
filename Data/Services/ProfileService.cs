@@ -1,6 +1,10 @@
 public class ProfileService : IProfileService
 {
     protected DataContext _data;
+    public ProfileService(DataContext context)
+    {
+        _data = context;
+    }
     public void Add(Profile profile)
     {
         _data.Add(profile);

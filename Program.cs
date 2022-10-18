@@ -1,12 +1,15 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using merita_soln.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddDbContext<DataContext>(o=>o.UseInMemoryDatabase("meritaDB"));
+builder.Services.AddScoped<IProfileService, ProfileService>();
 builder.Services.AddSingleton<WeatherForecastService>();
 
 var app = builder.Build();

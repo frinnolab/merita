@@ -8,53 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = merita_soln
 build_property.RootNamespace = merita_soln
-build_property.ProjectDir = c:\Users\Frinno-LAB\Desktop\GA James\merita soln\
+build_property.ProjectDir = C:\Users\Frinno-LAB\Desktop\GA James\merita soln\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Frinno-LAB\Desktop\GA James\merita soln
+build_property.MSBuildProjectDirectory = C:\Users\Frinno-LAB\Desktop\GA James\merita soln
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/App.razor]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/Counter.razor]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/FetchData.razor]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/Index.razor]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/Shared/SurveyPrompt.razor]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/ProfilePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/_Imports.razor]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/Shared/MainLayout.razor]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/ProfilesList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZXNMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-h5yty8ygmh
+
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ov3lkh7o4w
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/Shared/NavMenu.razor]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-8fidmkedzk
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/Error.cshtml]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/_Host.cshtml]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/_Layout.cshtml]
+[C:/Users/Frinno-LAB/Desktop/GA James/merita soln/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
