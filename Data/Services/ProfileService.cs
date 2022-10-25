@@ -20,7 +20,7 @@ public class ProfileService : IProfileService
 
     public IList<Profile> FindAll()
     {
-        var profiles = _data.Profiles.ToList();
+        var profiles = _data.Profiles?.ToList();
         return profiles;
     }
 
