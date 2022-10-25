@@ -3,7 +3,7 @@ public class ProfileService : IProfileService
     protected DataContext _data;
     public ProfileService(DataContext context)
     {
-        _data = context;
+         _data = context;
     }
     public void Add(Profile profile)
     {
@@ -13,8 +13,9 @@ public class ProfileService : IProfileService
 
     public Profile Find(int Id)
     {
-        var profile = _data.Profiles.Find(Id);
-        return profile;
+        Profile p = new Profile();
+
+        return p;
     }
 
     public IList<Profile> FindAll()

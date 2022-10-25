@@ -1,5 +1,4 @@
 namespace merita_soln.Data;
-
 public class WeatherForecast
 {
     public DateTime Date { get; set; }
