@@ -26,18 +26,18 @@ public class ProfileService : IProfileService
 
     public void Remove(int Id)
     {
-        var profile = _data.Profiles.Find(Id);
-        _data.Profiles.Remove(profile);
+        var profile = _data.Profiles?.Find(Id);
+        _data.Profiles?.Remove(profile);
         _data.SaveChanges();
     }
 
     public void Update(Profile profile)
     {
-        var profile_ = _data.Profiles.Find(profile.Id);
+        var profile_ = _data.Profiles?.Find(profile.Id);
 
         profile_ = profile;
 
-        _data.Profiles.Update(profile_);
+        _data.Profiles?.Update(profile_);
 
         _data.SaveChanges();
 
